@@ -1,0 +1,144 @@
+body{
+ padding:50px;
+ margin: 20px 10px;
+ background: url(back.jpg);
+ background-size: cover;
+ 
+
+}
+/* .main-container{
+text-align:center;
+padding: 20px;
+margin: auto;
+border: 1px solid black;
+height: 400px;
+width: 400px;
+border-radius: 5px;
+
+
+} */
+h1{
+color: rgba(52, 52, 212, 0.808);
+}
+.main-container{
+text-align:center;
+padding: 20px;
+margin: auto;
+border: 1px solid black;
+height: 300px;
+width: 400px;
+border-radius: 5px;
+background-color: white;
+ background-color: rgb(252, 252, 252);
+border-radius: 7px;
+
+}
+h1{
+color: rgba(52, 52, 212, 0.808);
+}
+.container{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+width: 300px;
+
+
+
+margin-left: 50px;
+}
+/* #random-btn{
+    padding: 5px;
+background-color:white;
+border: none;
+margin-right: 30px;
+width: 80px;
+height: 30px;
+border-color: grey;
+margin-bottom: 20px;
+border: 1px solid grey;
+
+
+} */
+/* #random-btn:hover{
+    background-color: rgba(52, 52, 212, 0.808);
+    color: white;
+}
+#pin-btn{
+    padding: 5px;
+    background-color:white;
+    border: 1px solid black;
+    margin-bottom: 20px;
+border-color: grey;
+
+width: 50px;
+height: 30px;
+ 
+}
+#pin-btn:hover{
+    background-color: rgba(52, 52, 212, 0.808);
+    color: white;
+} */
+/* #input-el{
+padding: 10px;
+width: 300px;
+border-radius: 10px;
+background-origin: padding-box;
+margin-bottom: 10px;
+cursor: pointer;
+margin-left: 50px;
+} */
+
+.check{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    display: flex;
+gap: 10px;
+justify-content: center;
+}
+.input-container {
+    position: relative;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#input-el {
+    width: 100%;
+    padding: 10px 60px 10px 10px; /* space for button */
+    box-sizing: border-box;
+}
+
+#copy-btn {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 5px 20px;
+    cursor: pointer;
+}
+#copy-btn:hover {
+    background-color: rgba(52, 52, 212, 0.808);
+    color: white;
+    border: none;
+}
+#password-length{
+    margin-top: 5px;
+    margin-bottom: 10px;
+
+}
+#gen-btn{
+background-color:rgba(52, 52, 212, 0.808);
+border: none;
+color: white;
+padding: 10px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+border-radius: 10px;
+margin-top: 20px;
+}
+ 
